@@ -244,8 +244,6 @@ function formatMs(ms) {
 // Notion API 연동
 // -------------------------------
 
-const DATABASE_ID = "2bb9d8f310c180f5af8ce5e2ef0490ef";
-
 async function sendToNotion(project, diffMs) {
   const minutes = Math.round(diffMs / 60000);
 
